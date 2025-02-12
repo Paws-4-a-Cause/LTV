@@ -1,16 +1,14 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 import App from "./App";
 import AboutUs from "./pages/AboutUs";
 import OurStories from "./pages/OurStories";
 import AdoptionProcess from "./pages/AdoptionProcess";
 import AdoptFoster from "./pages/AdoptFoster";
 import BeInvolved from "./pages/BeInvolved";
-import KennelSponsorship from "./pages/KernelSponsorship";
+import KennelSponsorship from "./pages/KennelSponsorship";
 import ContactUs from "./pages/ContactUs";
 import AdoptionForm from "./pages/AdoptionForm";
-import logo from "/public/logo.avif";
+
 
 const router = createBrowserRouter([
   {
@@ -51,8 +49,4 @@ const router = createBrowserRouter([
   },
 ]);
 
-createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <RouterProvider router={router} />
-  </StrictMode>
-);
+export default router;

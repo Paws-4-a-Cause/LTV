@@ -3,7 +3,11 @@ import { RouterProvider } from 'react-router-dom'
 import router from './Router'
 
 function App() {
-  return <RouterProvider router = {router} />;
+  return(
+  <>
+  <h1>Love The Voiceless</h1>
+ <RouterProvider router = {router} />;
+  </>)
 }
 
 export default App

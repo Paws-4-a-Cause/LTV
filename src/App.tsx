@@ -5,7 +5,7 @@ import instaLogo from "./assets/icons/Logos/instagram.png";
 import faceLogo from "./assets/icons/Logos/facebook.png";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(0);;
 
   return (
     <>

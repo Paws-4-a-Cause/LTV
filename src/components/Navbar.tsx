@@ -28,10 +28,10 @@ const Navbar: React.FC = () => {
             <Link to="/be-involved" className="text-gray-700 hover:text-black">Be Involved</Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <Link to="/kernel-sponsorship" className="text-gray-700 hover:text-black">Kernel Sponsorship</Link>
+            <Link to="/kennel-sponsorship" className="text-gray-700 hover:text-black">Kennel Sponsorship</Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <Link to="/contact" className="text-gray-700 hover:text-black">Contact Us</Link>
+            <Link to="/contact-us" className="text-gray-700 hover:text-black">Contact Us</Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
             <Link to="/adoption-form" className="text-gray-700 hover:text-black">Adoption Form</Link>

@@ -19,7 +19,7 @@ const router = createBrowserRouter([
       { path: "adoption_process", element: <AdoptionProcess /> },
       { path: "adopt_foster", element: <AdoptFoster /> },
       { path: "be_involved", element: <BeInvolved /> },
-      { path: "kennel_sponsorship", element: <KennelSponsorship /> },
+      { path: "kernel_sponsorship", element: <KennelSponsorship /> },
       { path: "contact_us", element: <ContactUs /> },
       { path: "adoption_form", element: <AdoptionForm /> },
     ],

@@ -1,6 +1,8 @@
+import Layout from "../components/Layout";
+
 const About = () => {
   return (
-    <>
+    <Layout>
       <div className="max-w-4xl mx-auto px-4 py-8 text-[#273878]">
         {/* title */}
         <section className="text-center mb-34">
@@ -11,7 +13,7 @@ const About = () => {
         <section className="grid grid-cols-12 gap-8 mb-16">
           <div className="col-span-5 flex items-center">
             <img
-              src="src/assets/dog1.avif"
+              src="/assets/dog1.avif"  // Updated path to work with public folder
               alt="dog1"
               className="rounded-full object-cover aspect-square"
             />
@@ -23,15 +25,15 @@ const About = () => {
             <p className="text-lg mb-6 text-justify">
               Love the Voiceless (LTV) was founded by a team of committed animal
               lovers in 2019. Once a group of 4 members, the team has now grown
-              to a network of passionate volunteers, feeders, rescuers and
+              to a network of passionate volunteers, feeders, rescuers, and
               like-minded dog lovers.
               <br />
               <br />
-              With the rapid urbanisation of our neighbourhoods, unethical
+              With the rapid urbanization of our neighborhoods, unethical
               breeding, mistreatment, abandonment of our furry companions,
               accompanied by the cultural taboos of Singapore Specials; our
               mission at LTV is to <span className="emphasis italic">love</span>
-              ,<span className="emphasis italic"> educate</span> and{" "}
+              , <span className="emphasis italic">educate</span>, and{" "}
               <span className="emphasis italic">heal</span>.
               <br />
               <br />
@@ -39,10 +41,10 @@ const About = () => {
               techniques and rehoming of stray dogs.
               <br />
               <br />
-              The team at LTV actively rescue, rehome, rehab, educate and
-              organise adoption drives for dogs under our care. We also
+              The team at LTV actively rescues, rehomes, rehabs, educates, and
+              organizes adoption drives for dogs under our care. We also
               collaborate with other similar welfare groups, feeders, schools,
-              communities or independent rescuers in supporting our cause.
+              communities, or independent rescuers in supporting our cause.
             </p>
           </div>
         </section>
@@ -55,7 +57,7 @@ const About = () => {
               Take your first steps and reach out."
             </p>
             <img
-              src="src/assets/noun-paw-prints-1114674.avif"
+              src="/assets/noun-paw-prints-1114674.avif"  // Updated path
               alt="paw-prints"
               className="absolute rotate-12 right-10 bottom-4 w-20 h-16"
             />
@@ -68,25 +70,24 @@ const About = () => {
             <div className="col-span-7 my-auto">
               <h2 className="text-4xl font-bold mb-14">Our Mission</h2>
               <ul className="space-y-4 text-xl list-disc ml-4">
-                <li className="">
+                <li>
                   To <span className="emphasis">Love</span> every dog like our
-                  own
+                  own.
                 </li>
-                <li className="">
+                <li>
                   To <span className="emphasis">Educate</span> every adult &
-                  child on the beauty of adoption and dogs' welfare
+                  child on the beauty of adoption and dogs' welfare.
                 </li>
-                <li className="">
+                <li>
                   To <span className="emphasis">Heal</span> all dogs under our
-                  care; <br />
-                  physically and mentally
+                  care; physically and mentally.
                 </li>
               </ul>
             </div>
             <div className="col-span-5 flex items-center">
               <img
-                src="src/assets/dog2.avif"
-                alt="dog1"
+                src="/assets/dog2.avif"  // Updated path
+                alt="dog2"
                 className="rounded-full object-cover aspect-square"
               />
             </div>
@@ -99,7 +100,7 @@ const About = () => {
             Our Partners and Wishlists
           </h2>
           <p className="mb-8">
-            Click on the logos to view LTV wishlists purchase and support the
+            Click on the logos to view LTV wishlists, purchase, and support the
             rescues!
           </p>
           <div className="flex justify-center w-full">
@@ -122,44 +123,44 @@ const About = () => {
           </div>
         </section>
       </div>
-    </>
+    </Layout>
   );
 };
 
 const partners = [
   {
     name: "Addiction",
-    logo: "src/assets/logos/Addiction-Final-Logo-Lockup.avif",
+    logo: "/assets/logos/Addiction-Final-Logo-Lockup.avif", // Updated path
     link: "/",
   },
   {
     name: "Happy Hounds",
-    logo: "src/assets/logos/Happy-Hounds-Logo.avif",
+    logo: "/assets/logos/Happy-Hounds-Logo.avif", // Updated path
     link: "https://www.happyhounds.com.sg/product-page/donate-to-love-the-voiceless-fromm-dry-dog-food",
   },
   {
     name: "Postman's Trinkets",
-    logo: "src/assets/logos/Postmans-Trinkets-Logo.avif",
+    logo: "/assets/logos/Postmans-Trinkets-Logo.avif", // Updated path
     link: "https://www.instagram.com/postmanstrinkets/?hl=en",
   },
   {
     name: "Polypet",
-    logo: "src/assets/logos/Polypet-Logo.avif",
+    logo: "/assets/logos/Polypet-Logo.avif", // Updated path
     link: "https://www.polypet.com.sg/collections/donate-to-love-the-voiceless",
   },
   {
     name: "The Twinship Co",
-    logo: "src/assets/logos/The-Twinship-Co-Logo.avif",
+    logo: "/assets/logos/The-Twinship-Co-Logo.avif", // Updated path
     link: "https://thetwinship.co/collections/all/products/scooby-reversible-bandana",
   },
   {
     name: "The Barkery SG",
-    logo: "src/assets/logos/Sgbarkery-Logo.avif",
+    logo: "/assets/logos/Sgbarkery-Logo.avif", // Updated path
     link: "https://sgbarkery.com/collections/for-the-shelters/products/love-the-voiceless-christmas-wishlist",
   },
   {
     name: "Wormhole",
-    logo: "src/assets/logos/WH-Logo.avif",
+    logo: "/assets/logos/WH-Logo.avif", // Updated path
     link: "https://wormhole.com.sg/products/fundraiser-cute-chonky-dogs-love-the-voiceless",
   },
 ];

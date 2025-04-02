@@ -1,12 +1,24 @@
-import { Outlet } from 'react-router-dom';
+import { Outlet } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
-function MainLayout() {
+const MainLayout = () => {
   return (
     <div>
-      {/* Common layout components like header, footer, etc. */}
+      {/* You can add your header, navigation, or any common layout components here */}
+      <header>
+        <Navbar />
+      </header>
+      
+      {/* This is where child routes will be rendered */}
       <Outlet />
+
+      {/* You can also include a footer or other components here */}
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
-}
+};
 
 export default MainLayout;

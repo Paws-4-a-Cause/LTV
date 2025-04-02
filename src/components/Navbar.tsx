@@ -52,14 +52,14 @@ const Navbar: React.FC = () => {
 };
 
 const navLinks = [
-  { label: "About Us", path: "/about-us" },
-  { label: "Our Stories", path: "/our-stories" },
-  { label: "Adoption Process", path: "/adoption-process" },
-  { label: "Adopt/Foster a Furkid", path: "/adopt-foster" },
-  { label: "Be Involved", path: "/be-involved" },
-  { label: "Kernel Sponsorship", path: "/kernel-sponsorship" },
-  { label: "Contact Us", path: "/contact" },
-  { label: "Adoption Form", path: "/adoption-form" },
+  { label: "About Us", path: "/about_us" },
+  { label: "Our Stories", path: "/our_stories" },
+  { label: "Adoption Process", path: "/adoption_process" },
+  { label: "Adopt/Foster a Furkid", path: "/adopt_foster" },
+  { label: "Be Involved", path: "/be_involved" },
+  { label: "Kernel Sponsorship", path: "/kernel_sponsorship" },
+  { label: "Contact Us", path: "/contact_us" },
+  { label: "Adoption Form", path: "/adoption_form" },
 ];
 
 export default Navbar;

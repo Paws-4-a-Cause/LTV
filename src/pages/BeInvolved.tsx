@@ -91,12 +91,48 @@ const BeInvolved = () => {
       </div>
 
       <div className="bg-[#FCFCFC] text-[#273878]">
-        
+        {/*Sponsor a Rescue*/}
+        <section className="text-center mb-10 pt-15">
+          <h1 className="text-5xl font-bold mt-15 tracking-widest">Sponsor a Rescue</h1>
+        </section>
+        <section className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-15">
+
+        </section>
+
 
       </div>
 
-
-
+      <div className="relative text-[#273878]">
+        {/* Partner with Us */}
+        <section className="w-full m-0 p-0">
+            <img
+              src="src/assets/be-involved/PartnerWithUs.avif"
+              alt="Partner With Us banner" 
+              className="w-full h-[1000px] object-cover"
+            />
+          </section>
+        {/* Partner with us text box */}
+        <div className="absolute top-1/2 left-2/3 -translate-x-1/2 -translate-y-1/2 bg-white/70 p-7 rounded-md h-200 w-120">
+          <h2 className="font-semibold text-5xl leading-tight mb-5 tracking-widest text-center">Partner with us</h2>
+          <p className="text-lg mt-2 mb-8">Businesses looking to expand their CSR footprint are welcome to partner with us on fundraising programmes or 
+            sponsorship opportunities. Some ideas can be a corporate-sponsored kennel at the shelter for LTV rescues, spread the word of adoption/
+            foster programmes to staff and stakeholders. <br/><br/>
+            There are many ways your businesses can support our cause:</p>
+            <ul className="list-disc text-lg mt-2 ml-10">
+              <li>If you're a pet supplies company, we accept donations, supplements or pet products i.e. pee-pads, wipes and Nexgard spectra, etc.</li>
+              <li>If you're an F&B business, donate items such as raw fish/beef/rice.</li>
+              <li>If you have a merchandising business, we're open to working with you on fundraising campaigns</li>
+              <li>Many more...</li>
+            </ul>
+            <p className="text-lg mt-8 mb-10">Every impact is a positive contribution to our cause! </p>
+        </div>
+        <div className="absolute top-1/2 left-2/3 -translate-x-1/2 -translate-y-1/2">
+          <button className="text-white bg-[#273878] top-100 py-2 rounded-lg absolute left-2/3 -translate-x-1/2 mt-4 w-120">
+            Email Us
+          </button>
+        </div>
+        
+      </div>
 
       <div className="max-w-4xl mx-auto px-4 py-8 text-[#273878]">
           {/* partners */}

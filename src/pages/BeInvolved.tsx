@@ -6,8 +6,6 @@ const BeInvolved = () => {
     <>
       <Navbar/>
       <>
-
-      
       <div className="max-w-5xl mx-auto py-8 text-[#273878]">
         {/*title*/}
         <section className="text-center mb-10 pt-15">
@@ -50,7 +48,53 @@ const BeInvolved = () => {
             <p className="text-center text-lg mb-10 px-7 leading-relaxed">Pet food brands, local pet businesses and merchants, corporates businesses and brands are welcome to partner with us!</p>
           </div>
         </section>
+
+        {/*Donate and Volunteer Information*/}
+        <section className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-15">
+          {/*Column 1*/}
+          <div className="flex flex-col mx-10">
+            <h1 className="font-semibold text-5xl leading-tight mb-5">Donate/ Volunteer</h1>
+            <h2 className="text-[#FF8B7B] leading-relaxed text-xl">Daily needs, medical support and housing are major costs that come with every rescue. We appreciate any monetary donation or sponsorships.
+              <br/><br/>*Kindly check in with us for inventory, preferred brand(s) and dietary requirements. </h2>
+          </div>
+          {/*Column 2*/}
+          <div className="flex flex-col mx-10">
+            <div className="mt-10">
+            <h2 className="font-bold text-xl">01<br/>Direct Donations</h2>
+            <p className="leading-relaxed text-l">Donations can be made directly to Love the Voiceless's Paynow Number @ 8101 6366.</p>
+            </div>
+            <div className="mt-15">
+            <h2 className="font-bold text-xl">03<br/>Supplements/ Medication</h2>
+            <p className="leading-relaxed text-l">Health supplements such as superboost, postbiotic, as well as tick/fleas and heartworm prevention - Nexgard Spectra</p>
+            </div>
+            <div className="mt-15">
+            <h2 className="font-bold text-xl">05<br/>Safety Accessories</h2>
+            <p className="leading-relaxed text-l">Airtags, martingale collar, flagline harness, leash,etc</p>
+            </div>
+          </div>
+          {/*Column 3*/}
+          <div className="flex flex-col mx-10">
+            <div className="mt-10">
+            <h2 className="font-bold text-xl">02<br/>Volunteer</h2>
+            <p className="leading-relaxed text-l">Volunteer your time at the shelter (Able to commit at least once a week) and/or your skillsets such as marketing, social media, vet tech training or copywriting, etc.</p>
+            </div>
+            <div className="mt-15">
+            <h2 className="font-bold text-xl">04<br/>Food/ Amenities</h2>
+            <p className="leading-relaxed text-l">Kibbles, milk, raw/cooked/canned food, shampoo, pee-pads, tooth brush/paste, wipes, ear cleaning solution</p>
+            </div>
+            <div className="mt-15">
+            <h2 className="font-bold text-xl">06<br/>Something extra</h2>
+            <p className="leading-relaxed text-l">Dog toys, treats, sniffing mat, vouchers for dog outings or even NTUC vouchers!</p>
+            </div>
+          </div>
+        </section>
       </div>
+
+      <div className="bg-[#FCFCFC] text-[#273878]">
+        
+
+      </div>
+
 
 
 

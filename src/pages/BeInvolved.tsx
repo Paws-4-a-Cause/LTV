@@ -90,16 +90,82 @@ const BeInvolved = () => {
         </section>
       </div>
 
-      <div className="bg-[#FCFCFC] text-[#273878]">
+      <div className="max-w-6xl mx-auto py-8 text-[#273878] bg-[#FCFCFC] text-[#273878]">
         {/*Sponsor a Rescue*/}
         <section className="text-center mb-10 pt-15">
           <h1 className="text-5xl font-bold mt-15 tracking-widest">Sponsor a Rescue</h1>
         </section>
-        <section className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-15">
-
+        <section className="grid grid-cols-1 md:grid-cols-3 mt-15">
+          {/*Kennel Sponsor*/}
+          <div className="relative flex flex-col mx-5">
+            <img
+              src="src/assets/be-involved/KennelSponsor.avif"
+              alt="Kennel Sponsor"
+              className="w-full rounded-t-full"
+            />
+            <div className="absolute top-100 left-14 bg-[#EEEEF5] p-5 md:w-5/ ">
+              <h2 className="text-[#273878] font-bold text-2xl mb-2">Kennel Sponsor</h2>
+              <p className="text-[#273878] text-m mb-3">
+              Sponsor one or more kennel dogs at the shelter. Dogs that we're unable to find a suitable foster, they'll board at Sungei Tengah. 
+                <br /><br />
+                Your sponsorship covers kennel rent, utilities and shelter maintenance at a fixed rate per month.
+              </p>
+              <div className="flex justify-end">
+                <a href="mailto:lovethevoiceless@gmail.com?subject=Kennel%20Sponsor%20-%20enquiry">
+                  <button className="w-7 h-7 flex items-center justify-center rounded-full border bg-[#000000] text-[#EEEEF5] hover:text-xl">
+                    ➝
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/*Food Sponsor*/}
+          <div className="relative flex flex-col mx-5">
+            <img
+              src="src/assets/be-involved/FoodSponsor.avif"
+              alt="Food Sponsor"
+              className="w-full rounded-t-full"
+            />
+            <div className="absolute top-100 left-14 bg-[#EEEEF5] p-5 md:w-5/ ">
+              <h2 className="text-[#273878] font-bold text-2xl mb-2">Food Sponsor</h2>
+              <p className="text-[#273878] text-m mb-3">
+              Due to the change in environment and medical intervention, rescues require nutritious meal plans for them to recover, boost their immunity and gain strength for recovery. 
+                <br /><br />
+                Your sponsorship can be in kind of frozen pet food, broth, kibbles, treats, pet milk and dietary supplements.
+              </p>
+              <div className="flex justify-end">
+                <a href="mailto:lovethevoiceless@gmail.com?subject=Food%20Sponsor%20-%20enquiry">
+                  <button className="w-7 h-7 flex items-center justify-center rounded-full border bg-[#000000] text-[#EEEEF5] hover:text-xl">
+                    ➝
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/*Contact Us*/}
+          <div className="relative flex flex-col mx-5">
+            <img
+              src="src/assets/be-involved/ContactUs.avif"
+              alt="Contact Us"
+              className="w-full rounded-t-full"
+            />
+            <div className="absolute top-100 left-14 bg-[#EEEEF5] p-5 md:w-5/ ">
+              <h2 className="text-[#273878] font-bold text-2xl mb-2">Contact Us Today</h2>
+              <p className="text-[#273878] text-m mb-3">
+              Reach out to the team if you have the wish to sponsor a rescue! 
+                <br /><br />
+                All sponsors will be recognised with dedicated meet-ups and/or recognition on the website and social media. Or you can be 100% anonymous. 
+              </p>
+              <div className="flex justify-end">
+                <a href="mailto:lovethevoiceless@gmail.com?subject=Kennel%20Sponsor%20-%20enquiry">
+                  <button className="w-7 h-7 flex items-center justify-center rounded-full border bg-[#000000] text-[#EEEEF5] hover:text-xl">
+                    ➝
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
         </section>
-
-
       </div>
 
       <div className="relative text-[#273878]">
@@ -127,9 +193,11 @@ const BeInvolved = () => {
             <p className="text-lg mt-8 mb-10">Every impact is a positive contribution to our cause! </p>
         </div>
         <div className="absolute top-1/2 left-2/3 -translate-x-1/2 -translate-y-1/2">
-          <button className="text-white bg-[#273878] top-100 py-2 rounded-lg absolute left-2/3 -translate-x-1/2 mt-4 w-120">
-            Email Us
-          </button>
+          <a href="mailto:lovethevoiceless@gmail.com?subject=Partnership%20-%20enquiry">
+            <button className="text-white bg-[#273878] top-100 py-2 rounded-lg absolute left-2/3 -translate-x-1/2 mt-4 w-120 hover:opacity-50">
+              Email Us
+            </button>
+          </a>
         </div>
         
       </div>

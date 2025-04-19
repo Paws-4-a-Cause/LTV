@@ -8,7 +8,7 @@ const AdoptFoster = () => {
         <div className="max-w-4xl mx-auto px-4 py-8 text-[#273878]">
           {/* title */}
           <section className="text-center mb-10 pt-15">
-            <h1 className="text-6xl font-extrabold">Adopt/Foster a Rescue Dog</h1>
+            <h1 className="text-6xl font-extrabold mt-15">Adopt/Foster a Rescue Dog</h1>
           </section>
   
           {/* description & button */}
